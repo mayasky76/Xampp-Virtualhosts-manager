@@ -1,0 +1,23 @@
+.draggableWindowDraggingDiv{
+}
+
+
+.draggableWindowContentDiv{
+	border-top:solid 1px #9a9a9a;
+	border-bottom:solid 1px #e6e6e6;
+	border-left:solid 1px #e6e6e6;
+	border-right:solid 1px #e6e6e6;
+	background:url('draggableWindowImg/background.png');
+	padding:0px; /* set this padding when innerShadow is not set */
+}
+
+.draggableWindowMainContentDiv{
+	border:solid 1px #fafafa;
+	background:transparent url('draggableWindowImg/mainBackground.png'); /*#f7f7f7*/
+}
+
+.draggableWindowTitleTd{
+	font-size:12px;
+	font-weight:bold;
+	font-family:Arial;
+}

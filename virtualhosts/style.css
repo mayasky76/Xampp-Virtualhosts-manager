@@ -1,0 +1,223 @@
+body{
+font-size:62.5%;
+font-family:Verdana;Arial,Sans-Serif;
+background:#d5d6d7 url('images/bgcolor.jpg');
+color:#333;
+text-align:center;
+margin:0 0 20px 0;
+padding:50px 0 0 0;}
+
+a{
+color:#4d3423;
+text-decoration:none;
+font-weight:bold;
+font-family:arial;
+}
+
+
+a:hover{
+color:#702f00;
+text-decoration:underline}
+
+
+
+#linkTbl{
+width:500px}
+
+#linkTbl td{
+padding:5px}
+
+.iconTd{
+width:32px;
+height:32px;
+text-align:center;
+vertical-align:middle;
+background:#e1ccbb}
+
+.linkTd{
+text-align:left;
+vertical-align:middle;
+padding:5px 20px 0 20px !important;
+background:#f7f2ed}
+
+.linkTd a
+{
+	font-size:14px;
+	font-weight:normal;
+}
+
+.linkTd a strong
+{
+	font-size:14px;
+	font-weight:bold;
+}
+
+.noIcon, .iconTd img{
+width:32px;
+height:32px}
+
+.white{
+	background-color:#fff;
+	padding:10px 0 0 0;
+	text-align:center;
+	vertical-align:top;
+}
+
+.white div{
+	background-color:#af764d;
+	margin:2px 2px 2px 0;
+	border:solid 1px #4e4e4e;
+	padding:2px 2px 5px 2px;
+	font-size:12px;
+	font-weight:bold;
+	color:#fff;
+}
+
+.white div.bigButton
+{
+	width:168px;
+	height:28px;
+	background:url(images/bg_big_button.gif);
+	border:none;
+	margin-bottom:5px;
+	padding:0px;
+}
+
+.white div.bigButton a,.white div.bigButton label
+{
+	line-height:30px;
+}
+
+
+
+.center{
+text-align:center;
+display:block;
+}
+
+.white div a {
+	font-family:Verdana;
+	font-weight:bold;
+	color:#fff;}
+
+.white #ManageHosts{
+	position:relative;
+	top:1px;
+}
+
+.white #allowVHosts{
+	position:relative;
+	border:solid 1px #4e4e4e;
+	top:3px;
+}
+
+.white label{
+	cursor:pointer;
+}
+
+.white label:hover{
+	text-decoration:underline;
+}
+
+.headerTd{
+background:url(images/headerBg.png);
+text-align:center;
+vertical-align:bottom;}
+
+.footerTd{
+background:url(images/footerBg.png);
+text-align:center;
+vertical-align:middle;
+}
+
+.footerTd a{
+	font-size:10px;
+}
+
+.midL{
+background:url(images/bgL.png);
+}
+
+.midR{
+background:url(images/bgR.png);
+}
+
+
+.path {
+	font-size:10px !important;
+	border:none !important;
+	background:none !important;
+	color:#a5a5a5 !important;
+	padding: 0 0 5px 0 !important;
+}
+
+
+#manageHostsTable{
+	width:100%;
+	margin: 10px 0 10px 0;
+}
+
+#manageHostsTable tr.changeColor:hover{
+	/*background:#f5f5f5;       toto tu mi nebzlo videt v praci */
+	background:#dfdfdf; 
+}
+
+.manageHostsTitleRow td{
+	font-size: 10px;
+	background: #e7e7e7;
+	color:#555;
+}
+
+.manageHostsNumTd{
+	text-align:right;
+	font-size:10px;
+	vertical-align:bottom;
+	padding-right:10px;
+}
+
+.manageHostsDocRootTd{
+	font-family:'Courier New';
+	font-size:13px;
+	vertical-align:bottom;
+}
+
+.manageHostsServerNameTd{
+	vertical-align:bottom;
+	padding:0 0 0 5px;
+	font-size:13px;
+	font-weight:bold;
+}
+
+.manageHostsServerNameTd a
+{
+	font-size:13px;
+	color:#333;
+	font-family:verdana;
+}
+
+.pointer{
+	cursor:pointer;
+}
+
+.buttons{
+	text-align:right !important;
+	padding: 10px 10px 0 0;
+}
+
+#manageHostsTable td.tdImg{
+	text-align:center;
+}
+
+#manageHostsTable td.tdImg:hover{
+	background:#f3b68e;
+}
+
+#manageHostsTable td{text-align:left}
+
+.mainTbl{margin:0 auto;}
+
+
+
+.button, .buttons input{height:20px;border-top:solid 1px #8b6954; border-right:solid 1px #876049; border-bottom:solid 1px #876049; border-left:solid 1px #8b6954;font-weight:bold;font-size:11px;color:#fff;margin:1px;background-image:url(images/bg_button.gif);padding-bottom:3px;}
+
+#msg{background:#fff1f2;text-align:left;font-weight:normal;color:#333;border:solid 1px #ffa7a9;}

@@ -1,0 +1,1 @@
+simply copy this folder (whole folder - not only it's content) into your XAMPP's htdocs directory. after that locate your favorite browser to http://localhost/x/
